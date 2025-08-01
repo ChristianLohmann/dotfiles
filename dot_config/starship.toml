@@ -37,3 +37,12 @@ style = "bold #C678DD"
 [username]
 format = "[$user]($style) on "
 style_user = "bold #61AFEF"
+
+[kubernetes]
+#format = 'on [$symbol $context]($style) in [$namespace](bold cyan)'
+#style = "bold bg:red fg:white"
+disabled = false
+
+[docker_context]
+disabled = true
+

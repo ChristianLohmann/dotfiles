@@ -1,0 +1,10 @@
+{
+  "templates": {
+    "one-shot-python": {
+      "description": "Generate a one-shot Python CLI tool with inline dependencies",
+      "system_prompt": "You write single-file Python CLI tools.\n Each file must start with the header comment below:\n\n # /// script\n # requires-python = \">=3.12\"\n # ///\n\n If the tool relies on external libraries, extend the header with a dependencies block, e.g.:\n\n # /// script\n # requires-python = \">=3.12\"\n # dependencies = [ \"click\", \"httpx\" ]\n # ///\n\n exclude any markdown fences to mark codeand descriptions from the response\n",
+      "model": "bedrock/anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "temperature": 0.3
+    }
+  }
+}
